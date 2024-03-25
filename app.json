@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "dli-library-mobile",
+    "name": "DLI Library",
     "slug": "dli-library-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.johndiddles.dlilibrarymobile"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.johndiddles.dlilibrarymobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0499aa04-fbf3-4d65-b58c-bfe5cb2d814e"
+      }
     }
   }
 }
